@@ -50,8 +50,6 @@ module.exports = function (grunt) {
         // sass (libsass) config
         sass: {
             options: {
-                require: 'susy',
-                loadPath: require('node-bourbon').includePaths,
                 sourceMap: true,
                 relativeAssets: false,
                 outputStyle: 'expanded',
