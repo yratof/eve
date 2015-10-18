@@ -125,6 +125,8 @@ module.exports = function (grunt) {
         'build',
         'combine_mq', // Combine MQ's
         'postcss:dist', // Post Process with Auto-Prefix
-        'newer:imagemin:dynamic' // Compress all images
+        'newer:imagemin:dynamic', // Compress all images
+        'concurrent:serve'
+
     );
 };
