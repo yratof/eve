@@ -27,19 +27,44 @@ $mono:              'Fira Mono', monospace;
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'wtny';
+    src: url('../fonts/wtny_light.woff2') format('woff2'),
+         url('../fonts/wtny_light.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'wtny';
+    src: url('../fonts/wtny_book.woff2') format('woff2'),
+         url('../fonts/wtny_book.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'wtny';
+    src: url('../fonts/wtny_semibold.woff2') format('woff2'),
+         url('../fonts/wtny_semibold.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+
 $circle:	'circle', arial, sans-serif;
-$sans-serif: $circle;
+$sans-serif: 'wtny', arial, sans-serif ;
 
 .circle{ font-family: $circle;}
 body{ 
-    font-family: $circle;
+    font-family: $sans-serif;
     font-smoothing: antialiased;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: greyscale;
 }
 
 // Our variables
-$base-font-family: $circle;
+$base-font-family: $sans-serif;
 $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
@@ -55,6 +80,9 @@ $base-line-height: 1.5;
 
 p{
     font-size: 1.5rem;
+    font-family: $sans-serif;
+    font-weight: 400;
+    line-height: $base-line-height; 
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -62,6 +90,7 @@ h1, h2, h3, h4, h5, h6 {
     color: $text-colour;
     font-weight: 300;
     margin: 0;
+    font-family: $circle;
 }
 
 h1, .h1 {   @include modular(2.875rem); font-weight: 600; } 
