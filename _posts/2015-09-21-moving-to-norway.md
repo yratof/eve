@@ -18,9 +18,4 @@ author:
     
 ---
 
-You know when you miss a flight and your first thought is, damn, I wish I didn't have to catch this flight at all?
-
-
-## How it happened
-
-I have thought about it before
+Currently, I'm living in Norway, waiting for my ID, living off the land.

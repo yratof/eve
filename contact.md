@@ -6,7 +6,7 @@ permalink: /contact/
 
 
 
-## Who?
+## who am i?
 
 I spend most of my time Photographing, Designing, Building pretty neat things. I pretty much do everything my mind wants to do on any given day.
 
