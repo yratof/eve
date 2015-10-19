@@ -18,7 +18,7 @@ author:
     
 ---
 
-I've recently found myself staring blankly at illustrator when I use pathfinder.
+I've recently found myself staring blankly at illustrator when I use pathfinder. Let me tell you why.
 
 Lets say you have two rounded rectangles and you want to merge them together into this neat little plus sign. You highlight your shapes, like you always would:
 
@@ -28,17 +28,19 @@ Head over to the pathfinder window and click on your favourite combining icon.
 
 ![image](/assets/imgs/illustrator_snapping_02.png)
 
-and...
+Now, normally, you'd get one shape, looking exactly how you wanted it to, all perfectly joined. However...
 
 ![image](/assets/imgs/illustrator_snapping_03.png)
 
 What the hell is that. Everything is misaligned, fucked up and just plain wrong.
 
+## Diagnosing my ignorance
+
 After much confusing and searching and digging, it turns out, your illustrator document is fucked from the beginning if you don't pay attention to Adobes new features.
 
 When you're creating a digital asset, you would normally just start a new document, ignore all the features that illustrator gives you and just colour and resize it as you see fit when you're creating.
 
-However, you'll notice in the advanced section of a new document window, at the bottom, there's a new checkbox –  __"Align New Obkects to Pixel grid"__.
+However, you'll notice in the advanced section of a new document window, at the bottom, there's a new checkbox –  __"Align New Objects to Pixel grid"__.
 
 ![image](/assets/imgs/illustrator_snapping_04.png)
 
