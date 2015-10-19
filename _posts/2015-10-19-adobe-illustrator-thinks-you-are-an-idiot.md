@@ -1,4 +1,22 @@
-# Adobe Illustrator thinks you're an idiot.
+---
+layout: post
+title: Adobe Illustrator thinks you're an idiot
+date: 2015-10-18 13:42:00.000000000 +01:00
+categories:
+- Thoughts
+status: publish
+type: post
+published: true
+meta:
+  svg_header: ''
+  tl;dr: 'Illustrator applies snapping when you create a document. Turn it off in the advanced section.'
+author:
+  email: yratof@gmail.com
+  display_name: Andrew
+  first_name: Andrew
+  last_name: Lazarus
+    
+---
 
 I've recently found myself staring blankly at illustrator when I use pathfinder.
 
