@@ -15,3 +15,6 @@ exclude: ['node_modules']
 
 # Build settings
 markdown: kramdown
+
+gems:
+  - jekyll-sitemap
