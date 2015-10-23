@@ -117,14 +117,14 @@ blockquote {
  */
 pre,
 code {
-    font-size: 15px;
-    border: 1px solid $grey-light;
+    margin: 0 2px;
+    padding: 0 5px;
+    white-space: nowrap;
+    border: 1px solid #eaeaea;
+    background-color: #f8f8f8;
     border-radius: 3px;
-    background-color: #eef;
-}
-
-code {
-    padding: 1px 5px;
+    font-family: Inconsolata, monospace;
+    hyphens: none;
 }
 
 pre {
