@@ -19,3 +19,8 @@ markdown: kramdown
 
 gems:
   - jekyll-sitemap
+  - jekyll-mentions
+
+# use like normal @ shit
+jekyll-mentions:
+  base_url: https://twitter.com
