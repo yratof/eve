@@ -1,10 +1,8 @@
 ---
 layout: page
-title: contact
+title: Contact
 permalink: /contact/
 ---
-
-
 
 ## Who am i?
 
