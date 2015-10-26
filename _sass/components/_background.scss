@@ -1,7 +1,7 @@
 /* My Face */
 
 .profile{
-	background-image: url('/assets/imgs/andrew-mobile.jpg');
+	background-image: url('/assets/imgs/eve_device.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: right center;
@@ -12,22 +12,22 @@
 	height: calc(100vh - 95px);
 
 	@include wider-than(phablet){
-		height: calc(100vh - 72px);
-		background-image: url('/assets/imgs/andrew-scroll.jpg');
-		background-size: auto 600%;
-		background-repeat: repeat-y;
-		background-attachment: fixed;
-		background-position: center center;
-		background-color: rgb(245, 245, 245);
-		padding-top: 14rem;
-		padding-bottom: 10rem;
+		height: 										calc(100vh - 72px);
+		background-image: 					url('/assets/imgs/eve_scroll.jpg');
+		background-size: 						auto 400%;
+		background-repeat: 					repeat-y;
+		background-attachment: 			fixed;
+		background-position: 				center center;
+		background-color: 					#fcfcfc;
+		padding-top: 								14rem;
+		padding-bottom: 						10rem;
 		
-		@include animation-name(flicker);
-		@include animation-duration(1s);
-		@include animation-direction(alternate-reverse);
-		@include animation-timing-function(steps(1));
-		@include animation-iteration-count(infinite);
-		@include animation-fill-mode(forwards);
+		animation-name: 						flicker;
+		animation-duration: 				1s;
+		animation-direction: 				normal;
+		animation-timing-function: 	steps(3);
+		animation-iteration-count: 	infinite;
+		animation-fill-mode: 				forwards;
 	}
 }
 
@@ -50,10 +50,7 @@
 
 
 @include keyframes(flicker){
-	$left: 50%;
+	$left: 100%;
 	0% 		{	background-position: $left 0;	}
-	20%		{ 	background-position: $left 24%;	}
-	40%		{ 	background-position: $left 48%;	}
-	60%		{ 	background-position: $left 72%;	}
-	80%		{ 	background-position: $left 96%;	}
+	100%		{ 	background-position: $left 100%;	}
 }
