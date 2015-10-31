@@ -72,6 +72,12 @@
 
 }
 
+hr {
+    border: 0;
+    border-bottom: 1px solid #ccc;
+    margin: 2rem auto;
+}
+
 .footer{
     text-align: center;
     background-color: $red;
