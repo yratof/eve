@@ -1,5 +1,4 @@
-!/bin/bash
-
+#!/bin/bash
 #---------/---------------------\---------#
 #--------|- Jekyll Post Creator -|--------#
 #---------\---------------------/---------#
@@ -92,7 +91,7 @@ echo "---" >> $filename
 echo "layout: $layout" >> $filename
 echo "title: \"$title\"" >> $filename
 echo "author: \"$author\"" >> $filename
-echo "date: `date +%F\ %H:%M:%S`" >> $filename
+echo "date: `date +%F\ %H:%M:%S\ %z`" >> $filename
 
 
 ### Adding tags on new lines with a dash in front (separated with comma)
