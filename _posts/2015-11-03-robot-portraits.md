@@ -19,7 +19,7 @@ author:
     
 ---
 
-Planning on building an arduino painter. I don't know how or where to srtart just yet. I've got the things for it, I have the idea. I just need the parts.
+Planning on building an Arduino painter. I don't know how or where to start just yet. I've got the things for it, I have the idea. I just need the parts.
 
 Here's some research for myself while I cook up the solution to prototyping my painting arm.
 
