@@ -31,5 +31,5 @@ Here's some research for myself while I cook up the solution to prototyping my p
 * [http://monograph.io/jishi/robotic-extrusions](http://monograph.io/jishi/robotic-extrusions)
 * [http://monograph.io/james/apple-cnc](http://monograph.io/james/apple-cnc)
 * [http://monograph.io/james/m-mtm](http://monograph.io/james/m-mtm)
-* [http://arduinoarts.com/2014/05/9-amazing-projects-where-arduino-art-meet/](http://arduinoarts.com/2014/05/9-amazing-projects-where-arduino-art-meet/)
+* [http://www.thingiverse.com/thing:248009](http://www.thingiverse.com/thing:248009)
 
