@@ -15,4 +15,7 @@ Instagram: [http://instagram.com/yratof](http://twitter.com/yratof)
 
 Twitter: [http://twitter.com/yratof](http://twitter.com/yratof)
 
-Email: [team@eyeversuseye.com](mailto:team@eyeversuseye.com)
+Email: [team@eyeversuseye.com](mailto:eyeversuseye@gmail.com)
+
+<br class="lazy-way-to-push-down-the-footer" />
+<br class="but-who-gives-a-fuck" />
