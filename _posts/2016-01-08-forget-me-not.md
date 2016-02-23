@@ -15,4 +15,4 @@ I've always wanted to have the ability to forget specific memories – just era
 For me, it was a game from my childhood. I'm talking a serious part of my creative life
 
 
-> Nostalgia
+So what if you had the power to forget; you could relive these experiences again and again – what if you forget, and don't like what you have forgotten? This is what I'm interested in, the false memories that recycle rose tinted glasses
