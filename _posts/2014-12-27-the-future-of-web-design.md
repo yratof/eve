@@ -91,24 +91,38 @@ author:
 
   options: {}
 ---
-<p>As a web designer, I understand that most of the time, what I create has a short life span. As trends change, designers change too, and with this, you create something that has a 'best before' date.</p>
-<p>The timelessness that you create with most other aspects of design just can't be matched on the web.</p>
-<p>So here's my prediction for 2016/17. (Not 2015, as this ain't going to shift nothing).</p>
-<blockquote>
-<h2>Less Design, more information.</h2>
-</blockquote>
-<p>That's right. Less design.</p>
-<p>I see the trend of 'Flat Design' not as something that is just stylistic, but something that is fundamentally changing the way the web is designed. It's not a case of pretty colours and long shadows, it's more of a case stripping away the design, stripping away all the fancy nonsense that we'd been building up to. Leaving behind most of the time, the core thing you're trying to put forward.</p>
-<p>Now what I mean by more information is not more information on a page, but a better understand of what that information is and what it represents. I think the future of the web is going to depend on web <del>designers</del> developers to start breaking down content into context.</p>
-<h2>Read between the lines with Microdata</h2>
-<p>You'll notice that the upcoming tech is all wearable. It just seems to be the way things are going, but even then it could surpass that and be implanted or another minority report style device that seems useless until we all have one.</p>
-<p>When the <a title="Apple Watch" href="http://www.apple.com/uk/watch/" target="_blank">Apple watch</a> is released in 2015, this will change the way consumers access information on the web. Yes I know we already have things like the <a title="Samsung Galaxy Gear" href="http://www.samsung.com/uk/consumer/mobile-devices/wearables/gear/SM-V7000ZKABTU" target="_blank">Samsung Gear</a> and <a title="Sony Smartwatch 2" href="https://www.o2.co.uk/shop/tablets/sony/smartwatch-2/?cm_mmc=googleuk-_-PPC_PAYG_PLA-_-SonySmartWatch2-_-SonySmartWatch2+SonySmartWatch2+Exact&amp;gclid=Cj0KEQiAzvmkBRCm3ZbV-4-hwrYBEiQAgLOw6wlOIOKpE1ommprem10BVvA6BZ2fW3w9JV8cc1Gd_ngaAtZH8P8HAQ&amp;gclsrc=aw.ds" target="_blank">Sony Smartwatch,</a> but Apple has always been the key player – they generally set the bar in which all other companies try to leap over. I'm not saying that this will replace your phone, but it will be another way that the internet is used but not seen.</p>
-<p><del>Again, with <a title="Google Glass" href="https://www.google.com/glass/start/" target="_blank">Google Glass</a>, We're going to have less things to look at, less screen real estate to play with. That device might not be designed as your primary device, but if it can take your calls, compose your messages and give you the information you need to know just be asking it, we're going to treat it as our second mind. Though it's been slated a fair bit, the core idea of it still stands.</del></p>
-<p>That nice fancy website with all the sliders and animations isn't going to mean anything to these devices, especially navigating them. Responsive design isn't going to help either,<em> I'm not spending my life creating breakpoints for a 2" device, it's just unnecessary.</em></p>
-<p>Microdata is what gives your content context. You wrap your information in tags, which in turn tell whatever robot is looking at it, what it means.</p>
-<p>Google have a nice little tool to help you <a title="Google Structured Data Markup" href="https://www.google.com/webmasters/markup-helper/" target="_blank">build your microdata here.</a></p>
-<p>... This isn't finished yet, but i thought it was worth publishing so far to share between peers.</p>
-<hr />
-<p>&nbsp;</p>
-<h2>After Thoughts:</h2>
-<p>And by this process of removal, will I still be a web designer in 5–10 years time? Or will I be an <span class="_Tgc"><b>archivist</b></span>; Sorting content into structures from which the world accesses via the built-in-screen in their car.</p>
+As a web designer, I understand that most of the time, what I create has a short life span. As trends change, designers change too, and with this, you create something that has a 'best before' date.
+
+The timelessness that you create with most other aspects of design just can't be matched on the web.
+
+So here's my prediction for 2016/17\. (Not 2015, as this ain't going to shift nothing).
+
+> ## Less Design, more information.
+
+That's right. Less design.
+
+I see the trend of 'Flat Design' not as something that is just stylistic, but something that is fundamentally changing the way the web is designed. It's not a case of pretty colours and long shadows, it's more of a case stripping away the design, stripping away all the fancy nonsense that we'd been building up to. Leaving behind most of the time, the core thing you're trying to put forward.
+
+Now what I mean by 'more information' is not just more information on a page, but a better understanding of what that information is and what it represents. The future of the web is going to depend on web <del>designers</del> developers to start breaking down content into context.
+
+## Read between the lines with Microdata
+
+You'll notice that the upcoming tech is all wearable. It just seems to be the way things are going, but even then it could surpass that and be implanted or another minority report style device that seems useless until we all have one.
+
+When the [Apple watch](http://www.apple.com/uk/watch/ "Apple Watch") is released in 2015, this will change the way consumers access information on the web. Yes I know we already have things like the [Samsung Gear](http://www.samsung.com/uk/consumer/mobile-devices/wearables/gear/SM-V7000ZKABTU "Samsung Galaxy Gear") and [Sony Smartwatch,](https://www.o2.co.uk/shop/tablets/sony/smartwatch-2/?cm_mmc=googleuk-_-PPC_PAYG_PLA-_-SonySmartWatch2-_-SonySmartWatch2+SonySmartWatch2+Exact&gclid=Cj0KEQiAzvmkBRCm3ZbV-4-hwrYBEiQAgLOw6wlOIOKpE1ommprem10BVvA6BZ2fW3w9JV8cc1Gd_ngaAtZH8P8HAQ&gclsrc=aw.ds "Sony Smartwatch 2") but Apple has always been the key player – they generally set the bar in which all other companies try to leap over. I'm not saying that this will replace your phone, but it will be another way that the internet is used but not seen.
+
+<del>Again, with [Google Glass](https://www.google.com/glass/start/ "Google Glass"), We're going to have less things to look at, less screen real estate to play with. That device might not be designed as your primary device, but if it can take your calls, compose your messages and give you the information you need to know just be asking it, we're going to treat it as our second mind. Though it's been slated a fair bit, the core idea of it still stands.</del>
+
+That nice fancy website with all the sliders and animations isn't going to mean anything to these devices, especially navigating them. Responsive design isn't going to help either, _I'm not spending my life creating breakpoints for a 2" device, it's just unnecessary._
+
+Microdata is what gives your content context. You wrap your information in tags, which in turn tell whatever robot is looking at it, what it means.
+
+Google have a nice little tool to help you [build your microdata here.](https://www.google.com/webmasters/markup-helper/ "Google Structured Data Markup")
+
+... This isn't finished yet, but i thought it was worth publishing so far to share between peers.
+
+* * *
+
+## After Thoughts:
+
+And by this process of removal, will I still be a web designer in 5–10 years time? Or will I be an <span class="_Tgc">**archivist**</span>; Sorting content into structures from which the world accesses via the built-in-screen in their car.
