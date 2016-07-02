@@ -5,12 +5,12 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>EVE | Eye versus eye | Coding in Norway</title>
-  <meta name="description" content="Artist in Norway playing with code and digital landscapes">
+  <title>A personal Touch ~ Contact Form 7 and Sessions | Eye versus eye | Coding in Norway</title>
+  <meta name="description" content="I know that this might come in handy for anyone struggling to get Contact Form 7 for Wordpress to say thanks with a personal touch.I know that this is covere...">
   <link rel="shortcut icon" type="image/png" href="http://eyeversuseye.com/favicon.png">
   <link rel="stylesheet" href="/css/main.css">
 	<link rel="stylesheet" href="http://code.cdn.mozilla.net/fonts/fira.css">
-  <link rel="canonical" href="http://eyeversuseye.com/">
+  <link rel="canonical" href="http://eyeversuseye.com/2012/07/contact-form-7-and-sessions/">
   <link rel="alternate" type="application/rss+xml" title="EVE" href="http://eyeversuseye.com/feed.xml" />
 	<script>
 	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -59,17 +59,41 @@
 </header>
 
 
-    <div class="page-content bg-grey profile">
+    <div class="page-content">
       <div class="wrapper">
-        <header class="">
-  <div class="wrap clearfix ">
-    <div class="masthead first">
-      <h1 class="">Artist living in <a href="https://en.wikipedia.org/wiki/Arendal" target="_blank" class="green">Norway</a>, <br />
-      playing with <a href="https://github.com/yratof?tab=repositories" target="_blank" class="blue">code</a> &amp; <a href="http://yratof.co.uk" target="_blank" class="red">art</a></h1>
-      <h3 class="">Design - code - animation - fun</h3>
-    </div>
-  </div>
-</header>
+        <div class="post single ma">
+
+  <header class="post-header">
+	  
+    <h1 class="post-title">A personal Touch ~ Contact Form 7 and Sessions</h1>
+  </header>
+
+  <article class="post-content">
+    <p>I know that this might come in handy for anyone struggling to get Contact Form 7 for Wordpress to say thanks with a personal touch.</p>
+<p>I know that this is covered on a few other blog's somewhere, but I've found that they all only have a snippet of code each, so I thought I'd merge it all together so you might also find solace in making it work (finally).</p>
+<p>First of all, I've tested this with the latest wordpress 3.9.1 + Contact Form 7, so when I wrote this. The world was a happier place. This might change though in the future, so for the people seeing this in years to come, leave a comment with your twitter (assuming that still exists) and correct anything that's wrong.</p>
+<p>Ok, So in your theme, you're going to want to open <strong>functions.php</strong>, Scroll to the absolute bottom and paste this before the closing php tag:</p>
+<p><script src="https://gist.github.com/yratof/afb46c218d1c42fb0877.js"></script></p>
+<p>You're going to want to change the ['your-name'] to whatever field you have in your contact form 7 that you want to display.<br />
+What that does, is start a session, then saves that field to the session so you can call it back at any point while you're still in the session</p>
+<p>Next, In the Plugin itself, there is an <strong>Adittional Settings</strong> text area at the bottom, in here, simple paste the 'thank you' link in the gist:</p>
+<pre>on_sent_ok: "location = 'http://www.formless.me/thankyou';"</pre>
+<p>Change the URL to your THANK YOU page, that way, once the form is submitted, the form will redirect to that URL.</p>
+<p>Now, you've almost done.</p>
+<p>Your final part is to echo the field somewhere. Personally, I'd create a template for the THANK YOU page &amp; paste this into it:</p>
+<pre>Thank You, <!--?php echo $_SESSION['formdata']; ?--></pre>
+<p>That should call up the <strong>first-name</strong> that i saved to the session when i submitted the form, and should display "Thank you, Andrew". you can then wrap that in tag of your choice and make it feel like your contact form really cares about you :)</p>
+<p>Hope that helps someone</p>
+
+  </article>
+
+  <footer>
+  	<hr />
+<p>If you liked this post, you can <a href="https://twitter.com/intent/tweet?url=http://eyeversuseye.com/2012/07/contact-form-7-and-sessions/&text=A personal Touch ~ Contact Form 7 and Sessions&via=yratof" target="_blank">share it</a> 
+or <a href="https://twitter.com/yratof"> follow me on Twitter</a>.</p>
+  </footer>
+</div>
+
       </div>
     </div>
 

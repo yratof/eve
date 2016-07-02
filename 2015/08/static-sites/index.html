@@ -5,12 +5,12 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>EVE | Eye versus eye | Coding in Norway</title>
-  <meta name="description" content="Artist in Norway playing with code and digital landscapes">
+  <title>Static sites. | Eye versus eye | Coding in Norway</title>
+  <meta name="description" content="It seems that every other day, a wordpress website that I've built gets hacked. It starts sending out spam emails or injecting links into itself on every pag...">
   <link rel="shortcut icon" type="image/png" href="http://eyeversuseye.com/favicon.png">
   <link rel="stylesheet" href="/css/main.css">
 	<link rel="stylesheet" href="http://code.cdn.mozilla.net/fonts/fira.css">
-  <link rel="canonical" href="http://eyeversuseye.com/">
+  <link rel="canonical" href="http://eyeversuseye.com/2015/08/static-sites/">
   <link rel="alternate" type="application/rss+xml" title="EVE" href="http://eyeversuseye.com/feed.xml" />
 	<script>
 	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -59,17 +59,42 @@
 </header>
 
 
-    <div class="page-content bg-grey profile">
+    <div class="page-content">
       <div class="wrapper">
-        <header class="">
-  <div class="wrap clearfix ">
-    <div class="masthead first">
-      <h1 class="">Artist living in <a href="https://en.wikipedia.org/wiki/Arendal" target="_blank" class="green">Norway</a>, <br />
-      playing with <a href="https://github.com/yratof?tab=repositories" target="_blank" class="blue">code</a> &amp; <a href="http://yratof.co.uk" target="_blank" class="red">art</a></h1>
-      <h3 class="">Design - code - animation - fun</h3>
-    </div>
-  </div>
-</header>
+        <div class="post single ma">
+
+  <header class="post-header">
+	  
+    <h1 class="post-title">Static sites.</h1>
+  </header>
+
+  <article class="post-content">
+    <p>It seems that every other day, a wordpress website that I've built gets hacked. It starts sending out spam emails or injecting links into itself on every page refresh. It's getting to a point where I want an alternative.</p>
+<p>I want change. I can't keep playing cat and mouse with bots, and frankly I shouldn't have to.</p>
+<p>Having spent an evening exploring the concept of static websites (You know, those things we used to build), I stumbled upon something at may be the answer to some of the problems I've been having.</p>
+<p>Enter <a href="http://en.staticpress.net">http://en.staticpress.net</a>, <a href="https://wordpress.org/plugins/really-static/" target="_blank">Really Static</a> and <a href="https://wordpress.org/plugins/super-static-cache/" target="_blank">Super Static</a>.</p>
+<p>It's a plugin for your wordpress that generates a completely static version of your site. No databases, no PHP; just straight up HTML that you'd see on the site anyway.</p>
+<p>Now, I've just ran it through the latest build of the FPD website to see what differences there are. Instantly, I've got thoughts – How does it handle contact forms?</p>
+<p>Well... it doesn't. It fails to know what to do with them, and just presents you with the form as markup. My solution? Change the forms action to use this service: <a href="http://formspree.io">http://formspree.io</a>. A neat little form action for static sites. It sends all the data from the form to this site, then sends it over to your inbox. Inject this with JS when your form doesn't load and problem solved.</p>
+<h2>Syncing</h2>
+<p>Now the beauty of a static site lies in the version control. <code>git init</code> on the static site and you've managed to lock your whole site in it's current state to a commit. If anything goes wrong from this point onwards, you can simply roll back to this version.</p>
+<p>Couple this with the hook that staticpress can send your static files to the server when you rebuild and you don't actually have to put your wordpress website live, you only have to publish the static version. Meaning you could install wordpress on a secure domain, under lock and key and hidden from robots, then every time your publish or update a post, your static site is updated via FTP.</p>
+<p>Even better – github pages. Free hosting, secure, scalable. Free.</p>
+<p>This solution eliminates the need for PHP or databases on your live server, cutting down hacks to a big fat 'never happened mate'. Plus the benefits of your site being faster from all that PHP you don't have to render and tables you don't have to fetch. you're left with google patting you on the back for having such a fast site. Unless you use a video header and 2000px wide images throughout...</p>
+<h2>One step further</h2>
+<p>So I've generated a static site from my wordpress. What else can we do to it?</p>
+<p>Well, one thought that comes to mind is having a grunt file in there that can minimise html and inline images (small ones mind). This is another layer work that can be done to the site to get it loading much faster.</p>
+<p>Realistically though, I could just not use wordpress and try something that is static already. But since I've got a barrel of clients that are already setup with wordpress, this would be the ideal way of getting them a little more secure.</p>
+
+  </article>
+
+  <footer>
+  	<hr />
+<p>If you liked this post, you can <a href="https://twitter.com/intent/tweet?url=http://eyeversuseye.com/2015/08/static-sites/&text=Static sites.&via=yratof" target="_blank">share it</a> 
+or <a href="https://twitter.com/yratof"> follow me on Twitter</a>.</p>
+  </footer>
+</div>
+
       </div>
     </div>
 
