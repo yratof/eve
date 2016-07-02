@@ -1,15 +1,15 @@
 ---
-layout: page
 title: Contact
-permalink: /contact/
+layout: page
+permalink: "/contact/"
 ---
 
-## Who am i?
+## Signal
+I'm an illustrator that builds websites to earn money. Fascinated with animating, learning technical information and deconstructing art.
 
-I spend most of my time Photographing, Designing, Building pretty neat things. I pretty much do everything my mind wants to do on any given day.
+Bonus skill is photography. I can do that well.
 
-
-## Frequencies
+## Noise
 
 Instagram: [http://instagram.com/yratof](http://twitter.com/yratof)
 
@@ -17,5 +17,5 @@ Twitter: [http://twitter.com/yratof](http://twitter.com/yratof)
 
 Email: [team@eyeversuseye.com](mailto:eyeversuseye@gmail.com)
 
-<br class="lazy-way-to-push-down-the-footer" />
-<br class="but-who-gives-a-fuck" />
+<br data-thought="lazy-way-to-push-down-the-footer" />
+<br data-thought="but-who-gives-a-fuck" />
