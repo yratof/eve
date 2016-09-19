@@ -42,7 +42,7 @@ module.exports = function (grunt) {
                 tasks: [
                     'sass',
                     'postcss:dist',
-                    'combine_mq',  
+                    'combine_mq',
                 ]
             }
         },
@@ -52,7 +52,7 @@ module.exports = function (grunt) {
             options: {
                 sourceMap: true,
                 relativeAssets: false,
-                outputStyle: 'expanded',
+                outputStyle: 'compressed',
                 sassDir: '_sass',
                 cssDir: '_site/css'
             },
@@ -121,7 +121,7 @@ module.exports = function (grunt) {
 
     // Register build as the default task fallback
     grunt.registerTask(
-        'default', 
+        'default',
         'build',
         'combine_mq', // Combine MQ's
         'postcss:dist', // Post Process with Auto-Prefix
