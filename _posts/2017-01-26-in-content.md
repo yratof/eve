@@ -25,11 +25,11 @@ In-content advertising. It's the future.
 
 ## But... the technical aspects
 
-Tracking things is not hard work, google maps does a fine job of being able to provide captchas with street names well enough, along with blaring out the faces of every man, woman, child and dog ( Find a dog on google maps, you'll see what I mean).
+Tracking things is not hard work, google maps does a fine job of being able to provide captchas with street names well enough, along with blurring out the faces of every man, woman, child and dog ( Find a dog on google maps, you'll see what I mean). Youtube managed to process a video when it uploads very quickly, especially when you need to edit it on the site and add effects and audio. If they acquire a company that creates tracking software, there's no reason they can't apply it on the fly.
 
-So you upload your video to youtube, enable in-content monetisation, it analyses your video for available advertising space then replaces what it can.
+So this is how it would work: You upload your video to youtube, enable in-content monetisation. Youtube then analyses your video for available advertising space, lets you know if it's available then replaces what it can with whatever it can.
 
-Combine this with the deep learning computers that can match paintings to pictures to imitate the style and you've got yourself the ability to autonomously match an advertisement to the location the video, the grading etc.
+Combine this with the deep learning computers that can match paintings to pictures to imitate the style and you've got yourself the ability to autonomously match an advertisement to the location the video, the grading etc. Mix in something like Octane rendering for realism of 3D products, and not only do you have advertising that is implemented within the content, but you might also have something that is realistic enough to believe it.
 
 ## The rise of blogging
 
@@ -41,4 +41,14 @@ Combine it with the fact some vlogging channels can reach 10 million views in a 
 - Branding splashed over cars
 - Drone footage with football field style graphics
 
-This is the Black Mirror future I'm predicting, but what do you think?
+There's no end to what you could replace...
+
+### Ethics and 'is it still my content'
+
+If you enabled this future feature on your video, do you own the content still? If it's littered with Pepsi adverts throughout it, does it become a collaboration with the advertisers? 
+
+Will vloggers tailor their videos to include advertising space? It's not hard to imagine having a few tracking marks on your desk specifically designed to help you earn more money per video. 
+
+This is the Black Mirror future I'm predicting.
+
+Of course, it's not something that exists yet, but what do you think? Could it work? Would you be upset by such a feature, would it enhance anything?
