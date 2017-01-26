@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "In-content"
+title: "In-content Advertising"
 author: "Andrew Lazarus"
 date: 2017-01-26 15:39:30 +0100
 tags:
 - adverts
--future
--blackmirror
+- future
+- blackmirror
 ---
 
 We're all used to adverts showing more and more frequently before youtube clips - hell, visit a newspapers website and they really squeeze their advertising into everything you can view.
