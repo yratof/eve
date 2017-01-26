@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "In-content Advertising"
+title: "In-content video advertising"
 author: "Andrew Lazarus"
 date: 2017-01-26 15:39:30 +0100
 tags:
