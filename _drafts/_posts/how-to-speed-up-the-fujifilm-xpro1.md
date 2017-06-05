@@ -1,8 +1,7 @@
 ---
 title: How to speed up the Fujifilm Xpro1
 date: '2017-06-05T11:51:03+00:00'
-gallery:
-- "/IMG_0212.JPG"
+gallery: []
 content: ''
 ---
 
@@ -17,4 +16,5 @@ But I solved it.
 
 <span style="font-size: 1rem; -webkit-text-size-adjust: 100%;">I've taken that tiny exposure delay to nothing and simply reduced the camera to taking pictures when I want to. There is one simple setting in the menu that helps reduce the time between pushing the shutter and taking the photo.</span>
 
-<span style="font-size: 1rem; -webkit-text-size-adjust: 100%;"><br></span>
+![](/IMG_0212.JPG)
+
