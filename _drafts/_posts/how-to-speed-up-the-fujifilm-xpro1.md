@@ -14,7 +14,7 @@ There are times when I think that the cameras auto focus is too slow, or that th
 
 But I solved it.
 
-<span style="font-size: 1rem; -webkit-text-size-adjust: 100%;">I've taken that tiny exposure delay to nothing and simply reduced the camera to taking pictures when I want to. There is one simple setting in the menu that helps reduce the time between pushing the shutter and taking the photo.</span>
+<span style="font-size: 1rem; -webkit-text-size-adjust: 100%;">I've taken that tiny exposure delay to nothing and simply reduced the camera to taking pictures when I want to. There is one simple setting in the menu that&nbsp;</span><span style="font-size: 1rem; -webkit-text-size-adjust: 100%;">helps reduce the time between pushing the shutter and taking the photo.</span>
 
 ![](/IMG_0212.JPG)
 
