@@ -1,0 +1,56 @@
+.site-title{
+	font-family: $circle;
+	text-transform: lowercase;
+	font-size: 3rem;
+	font-weight: 600;
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+	width: 100%;
+
+	@include wider-than(tablet){
+		text-align: left;
+		width: 30%;
+
+		&:hover{
+			color: $blue;
+			text-decordation: none;
+		}
+	}
+}
+
+.site-nav{
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+	width: 100%;
+
+	@include wider-than(tablet){
+		width: 69%;
+		text-align: right;
+	}
+
+	a{
+		font-size: 1rem;
+		margin-left: 0;
+		font-family: $circle;
+
+		&:last-child{
+			margin-left: 2rem;
+		}
+
+		@include wider-than(tablet){
+			margin-left: 2rem;
+		}
+
+		&.latest{
+			@include not-wider-than(tablet){
+				display: block;
+			}
+
+			span{
+				color: $blue;
+			}
+		}
+	}
+}

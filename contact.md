@@ -11,7 +11,6 @@ Bonus skill is photography. I can do that well.
 
 ## Noise
 
-
 Instagram: [http://instagram.com/yratof](https://instagram.com/yratof)
 
 Twitter: [http://twitter.com/yratof](https://twitter.com/yratof)

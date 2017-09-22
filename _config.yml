@@ -1,0 +1,24 @@
+# Site settings
+title: EVE
+email: team@eyeversuseye.com
+description: Artist in Norway playing with code and digital landscapes
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://eyeversuseye.com" # the base hostname & protocol for your site
+permalink: /:year/:month/:title/
+twitter_username: yratof
+github_username:  yratof
+timezone: Europe/Oslo
+
+# Extra things
+exclude: ['node_modules']
+
+# Build settings
+markdown: kramdown
+
+gems:
+  - jekyll-sitemap
+#  - jekyll-mentions
+
+# # use like normal @ shit
+# jekyll-mentions:
+#   base_url: https://twitter.com
