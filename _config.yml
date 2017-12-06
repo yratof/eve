@@ -16,7 +16,7 @@ exclude: ['node_modules']
 markdown: kramdown
 
 gems:
-  - jekyll-sitemap
+#  - jekyll-sitemap
 #  - jekyll-mentions
 
 # # use like normal @ shit
