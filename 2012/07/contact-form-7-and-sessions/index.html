@@ -81,7 +81,7 @@ What that does, is start a session, then saves that field to the session so you 
 <p>Change the URL to your THANK YOU page, that way, once the form is submitted, the form will redirect to that URL.</p>
 <p>Now, you've almost done.</p>
 <p>Your final part is to echo the field somewhere. Personally, I'd create a template for the THANK YOU page &amp; paste this into it:</p>
-<pre>Thank You, <?php echo $_SESSION['formdata']; ?></pre>
+	  <pre><code>Thank You, <?php echo $_SESSION['formdata']; ?></code></pre>
 <p>That should call up the <strong>first-name</strong> that i saved to the session when i submitted the form, and should display "Thank you, Andrew". you can then wrap that in tag of your choice and make it feel like your contact form really cares about you :)</p>
 <p>Hope that helps someone</p>
 
